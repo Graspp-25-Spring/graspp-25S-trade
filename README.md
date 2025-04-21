@@ -1,4 +1,3 @@
 Collaborator:
 - Quentin Hillebrand
-- Gerwin He
-- Wanonno Iqtyider
+- Tue Lan Le
