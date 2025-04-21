@@ -4,3 +4,4 @@ Collaborator:
 - Hanako Nakamura
 - Wanonno Iqtyider
 - Tue Lan Le
+- Yijing Lian
