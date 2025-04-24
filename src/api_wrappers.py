@@ -66,7 +66,7 @@ if __name__ == "__main__":
         agency_id="OECD.SDD.TPS",
         dataflow_id="DSD_ALFS%40DF_SUMTAB",
         dataflow_ver="1.0",
-        dimensions=["all", "all", "all", "all", "_T", "all", "all", "BTE", "A"],
+        dimensions=["all", "EMP", "PS", "all", "_T", "all", "all", "BTE", "A"],
         startPeriod=1955,
         endPeriod=2023,
         dimensionAtObservation="AllDimensions",
