@@ -4,7 +4,7 @@ import io
 from pathlib import Path
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 EXTERNAL_DATA_DIR = BASE_DIR / "data" / "external"
 EXTERNAL_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
