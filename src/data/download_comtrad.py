@@ -1,15 +1,24 @@
 import pandas as pd
-import requests
-import io
-import os
+import comtradeapicall
 
-def download_comtrade_trade_total(url):
-    url = "https://comtradeplus.un.org/TradeFlow?Frequency=A&Flows=X&CommodityCodes=TOTAL&Partners=251&Reporter"
-    print(f"Fetching Comtrade data from: {url}")
-    #df = pd.read_stata(url)
-    df = pd.read_csv(r"C:\Users\Gerwin\Documents\Tokyo university\1 Data Science\graspp-25S-trade\datasets\COMTRADE_TotalTrade.csv", encoding="latin1")
-    return df
 
-url_comtrade = "https://comtradeplus.un.org/TradeFlow?Frequency=A&Flows=X&CommodityCodes=TOTAL&Partners=251&Reporter"
+CHUNK_SIZE = 12
 
-df_comtrade_raw = download_comtrade_trade_total(url_comtrade)
+
+def get_un_trade_data(subscription_key):
+    periods = list(range(1988, 2025))
+    chunks = [periods[i:i + CHUNK_SIZE] for i in range(0, len(periods), CHUNK_SIZE)]
+
+    list_df = []
+    for chunk in chunks:
+        period_string = ",".join([str(year) for year in chunk])
+        list_df.append(
+            comtradeapicall.getFinalData(
+                subscription_key, typeCode='C', freqCode='A', clCode='HS', period=period_string,
+                reporterCode=None, cmdCode="TOTAL", flowCode='M,X', partnerCode=0,
+                partner2Code=0,
+                customsCode="C00", motCode=None, maxRecords=5000, format_output='JSON',
+                aggregateBy=None, breakdownMode='classic', countOnly=None, includeDesc=True
+            )
+        )
+    return pd.concat(list_df)
