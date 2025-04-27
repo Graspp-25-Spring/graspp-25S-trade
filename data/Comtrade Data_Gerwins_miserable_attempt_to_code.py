@@ -12,27 +12,26 @@ df_2013_raw = pd.read_csv("data/Comtrade 2012_2024.csv", encoding="latin1", inde
 
 
 # #Step 2: filter rows
-df_2001 = df_2001_raw[['reporterDesc', 'refYear', 'primaryValue']].dropna()
-df_2013 = df_2013_raw[['reporterDesc', 'refYear', 'primaryValue']].dropna()
+df_2001 = df_2001_raw[['reporterDesc', 'refYear', 'primaryValue', 'flowDesc']].dropna()
+df_2013 = df_2013_raw[['reporterDesc', 'refYear', 'primaryValue', 'flowDesc']].dropna()
 
 
 # #Step 3: rename rows
-df_2001 = df_2001.rename({"reporterDesc":'country', "refYear":'date', "primaryValue":'total trade value'}, axis=1)
-df_2013 = df_2013.rename({"reporterDesc":'country', "refYear":'date', "primaryValue":'total trade value'}, axis=1)
+df_2001 = df_2001.rename({"reporterDesc":'country', "refYear":'date', "primaryValue":'total trade value', "flowDesc":'import or export'}, axis=1)
+df_2013 = df_2013.rename({"reporterDesc":'country', "refYear":'date', "primaryValue":'total trade value', "flowDesc":'import or export'}, axis=1)
 
-# print(df_2001.tail(2))
-# print(df_2013.tail(2))
+#Step 4: Set index
+df_2001 = df_2001.set_index(['country', 'date'])
+df_2013 = df_2013.set_index(['country', 'date'])
 
-#Step 4: merge data sets
-df_merge = pd.merge(
-    df_2001,
-    df_2013,
-    right_index = True,
-    left_index = True,
-    how = 'inner'
-    )
 
-print(df_merge.tail(2))
+#Step 5 merge data sets
+
+df_merge = pd.concat([df_2001, df_2013], axis=0)
+
+print(df_merge)
+
+
 
 
 
