@@ -1,7 +1,7 @@
 pandas==2.2.3
 requests==2.32.3
 notebook==7.4.0
-matplotlib==3.10.1
+matplotlib==3.9.1
 seaborn==0.13.2
 comtradeapicall==1.2.1
 statsmodels==0.14.4
