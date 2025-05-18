@@ -23,4 +23,8 @@ This study investigates whether greater trade openness, reflected by rising tota
 We hypothesize that greater trade openness, characterized by higher total trade volumes and lower tariff rates, is associated with a decline in industrial employment. Specifically, we expect that during trade-friendly periods (with lower tariffs and higher trade flows), industrial sectors experience more employment reduction compared to trade-unfriendly periods (with higher tariffs and restricted trade flows). Furthermore, we anticipate that this effect will be more pronounced in developing countries than in OECD countries, reflecting differences in industrial resilience and economic structures.
 
 ### Analysis Methods 
-We visualized trends over time and examined the relationship between employment levels and export values through regression analysis. In addition, time series analyses are performed separately for each country, including correlation analysis, rolling correlation windows, stationarity tests (ADF test), and simple regressions of exports on employment. 
+We visualized trends over time and examined the relationship between employment levels and export values through regression analysis. In addition, time series analyses are performed separately for each country, including correlation analysis, rolling correlation windows, stationarity tests (ADF test), and simple regressions of exports on employment.
+
+### Data Source
+- ILO Data: https://rshiny.ilo.org/dataexplorer16/?id=EMP_TEMP_ECO_OCU_NB_A&timefrom=2014&timeto=2024
+- OECD Data on annual labor force: https://data-explorer.oecd.org/vis?fs[0]=T%2Co&pg=0&fc=Topic&bp=true&snb=68&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_ALFS%2540DF_SUMTAB&df[ag]=OECD.SDD.TPS&df[vs]=1.0&dq=........A&pd=%2C&to[TIME_PERIOD]=false&vw=ov
