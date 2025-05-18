@@ -56,7 +56,7 @@ def clean_industry_employment_data(df_raw, file_path=None):
     df_clean = def_renamed.set_index(["country", "year"])
     if file_path:
         print(f"Saving the dataset to: {file_path}")
-        df_clean.to_csv(file_path, index=False)
+        df_clean.to_csv(file_path, index=True)
     return df_clean
 
 
@@ -114,7 +114,7 @@ def clean_trade_data(df_raw, file_path=None):
     )
     if file_path:
         print(f"Saving the dataset to: {file_path}")
-        df_clean.to_csv(file_path, index=False)
+        df_clean.to_csv(file_path, index=True)
     return df_clean
 
 
@@ -122,7 +122,7 @@ def merge_data(df_1, df_2, file_path=None):
     df_merge = pd.merge(df_1, df_2, right_index=True, left_index=True, how="inner")
     if file_path:
         print(f"Saving the dataset to: {file_path}")
-        df_merge.to_csv(file_path, index=False)
+        df_merge.to_csv(file_path, index=True)
     return df_merge
 
 
@@ -147,8 +147,9 @@ class DataImporter:
 
         file_path_clean = INTERIM_DATA_DIR / (EMPLOYMENT_BASE_NAME + "_clean.csv")
         if file_path_clean.exists():
-            print(f"Reading raw data from: {file_path_clean}")
-            self.employment_clean = pd.read_csv(file_path_clean)
+            print(f"Reading clean data from: {file_path_clean}")
+            df = pd.read_csv(file_path_clean)
+            self.employment_clean = df.set_index(["country", "year"])
         else:
             self.employment_clean = clean_industry_employment_data(
                 self.employment_raw, file_path=file_path_clean
@@ -168,8 +169,9 @@ class DataImporter:
 
         file_path_clean = INTERIM_DATA_DIR / (TRADE_BASE_NAME + "_clean.csv")
         if file_path_clean.exists():
-            print(f"Reading raw data from: {file_path_clean}")
-            self.trade_clean = pd.read_csv(file_path_clean)
+            print(f"Reading clean data from: {file_path_clean}")
+            df = pd.read_csv(file_path_clean)
+            self.trade_clean = df.set_index(["country", "year"])
         else:
             self.trade_clean = clean_trade_data(
                 self.trade_raw, file_path=file_path_clean
@@ -180,8 +182,9 @@ class DataImporter:
     def get_merged_data(self):
         file_path_merge = INTERIM_DATA_DIR / "merge.csv"
         if file_path_merge.exists():
-            print(f"Reading raw data from: {file_path_merge}")
-            self.merge = pd.read_csv(file_path_merge)
+            print(f"Reading merged data from: {file_path_merge}")
+            df = pd.read_csv(file_path_merge)
+            self.merge = df.set_index(["country", "year"])
         else:
             df_trade = self.get_trade_data()
             df_employment = self.get_employment_data()
