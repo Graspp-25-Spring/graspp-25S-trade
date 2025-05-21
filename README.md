@@ -32,13 +32,13 @@ We visualized trends over time and examined the relationship between employment 
 - OECD Data on annual labor force: https://data-explorer.oecd.org/vis?fs[0]=T%2Co&pg=0&fc=Topic&bp=true&snb=68&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_ALFS%2540DF_SUMTAB&df[ag]=OECD.SDD.TPS&df[vs]=1.0&dq=........A&pd=%2C&to[TIME_PERIOD]=false&vw=ov
 
 ### Task Table
-| Name               | Work Done |
-|--------------------|-----------|
-| Quentin Hillebrand |           |
-| Gerwin He          |           |
-| Hanako Nakamura    |           |
-| Wanonno Iqtyider   |           |
-| Tue Lan Le         |           |
-| Yijing Lian        |           |
-| Angie Henon        |           |
-| Natsuki Konishi    |           |
+| Name               | Work Under Progress         | Work Done           |
+|--------------------|-----------------------------|---------------------|
+| Quentin Hillebrand |                             |                     |
+| Gerwin He          |                             |                     |
+| Hanako Nakamura    |                             |                     |
+| Wanonno Iqtyider   |                             |                     |
+| Tue Lan Le         |                             |                     |
+| Yijing Lian        |                             |                     |
+| Angie Henon        |                             |                     |
+| Natsuki Konishi    |                             |                     |
