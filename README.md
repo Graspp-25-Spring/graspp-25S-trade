@@ -33,7 +33,7 @@ We visualized trends over time and examined the relationship between employment 
 
 ### Task Table
 | Name               | Work Under Progress              | Work Done           |
-|:----------------|:------------------|:---------------|
+|:------------------|:------------------|:---------------|
 | Quentin Hillebrand |                                  |                     |
 | Gerwin He          |                                  |                     |
 | Hanako Nakamura    |                                  |                     |
