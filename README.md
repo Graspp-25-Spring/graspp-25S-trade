@@ -39,7 +39,6 @@ We visualized trends over time and examined the relationship between employment 
 | Hanako Nakamura    |                                  |                     |
 | Wanonno Iqtyider   |                                  |                     |
 | Tue Lan Le         |                                  |                     |
-| Yijing Lian        | Case study on US-China trade war | 1. Mapping employment by country and year,  
-2. Regression and Histogram on pct. change of employment and trade|
+| Yijing Lian        | Case study on US-China trade war | 1. Mapping employment by country and year,<br>2. Regression and Histogram on pct. change of employment and trade|
 | Angie Henon        |                                  |                     |
 | Natsuki Konishi    |                                  |                     |
