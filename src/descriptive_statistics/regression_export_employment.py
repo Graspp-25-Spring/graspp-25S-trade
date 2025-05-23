@@ -3,7 +3,7 @@ import seaborn as sns
 import statsmodels.formula.api as smf
 
 
-def regression(df):
+def regression_employment(df):
     df_regression = df.dropna(subset=["Export", "ILO"]).reset_index()
     model = smf.ols(formula='Q("Export") ~ ILO', data=df_regression).fit()
     print(model.summary())
