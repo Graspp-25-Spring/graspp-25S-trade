@@ -35,7 +35,7 @@ We visualized trends over time and examined the relationship between employment 
 | Name               | Work Under Progress              | Work Done           |
 |:------------------|:------------------|:---------------|
 | Quentin Hillebrand |                                  |                     |
-| Gerwin He          |                                  |                     |
+| Gerwin He          | Cleaning up the milestone folder: taking the code for descriptive statistics into separate py files and importing them back into the milestone folder  | cleaning up and importing, created in src a new folder with py code for descriptive statistics |
 | Hanako Nakamura    |                                  |                     |
 | Wanonno Iqtyider   |                                  |                     |
 | Tue Lan Le         |                                  |                     |
