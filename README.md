@@ -38,7 +38,7 @@ We visualized trends over time and examined the relationship between employment 
 | Gerwin He          | Cleaning up the milestone folder: taking the code for descriptive statistics into separate py files and importing them back into the milestone folder  | cleaning up and importing, created in src a new folder with py code for descriptive statistics |
 | Hanako Nakamura    |                                  |                     |
 | Wanonno Iqtyider   |                                  |                     |
-| Tue Lan Le         |                                  |                     |
+| Tue Lan Le         |                                  |      identifying outliers in industry employment to find potential case study candidates               |
 | Yijing Lian        | Case study on US-China trade war | 1. Mapping employment by country and year,<br>2. Regression and Histogram on pct. change of employment and trade|
 | Angie Henon        |                                  |                     |
 | Natsuki Konishi    |                                  |                     |
