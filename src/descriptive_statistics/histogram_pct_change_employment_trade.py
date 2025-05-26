@@ -1,7 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from pathlib import Path
 
 
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+VISUALIZATION_DIR = BASE_DIR / "report" / "visualization"
+VISUALIZATION_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # Plot histogram for percentage change in employment
@@ -25,4 +30,8 @@ def histogram_pct_change_employment_trade(df):
     plt.ylabel("Frequency")
 
     plt.tight_layout()
+
+    # Save figure
+    plt.savefig(VISUALIZATION_DIR / "histogram_pct_change_employment_trade.png", dpi=300, bbox_inches='tight')
+    
     plt.show()

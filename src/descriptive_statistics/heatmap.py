@@ -1,6 +1,13 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+from pathlib import Path
+
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+VISUALIZATION_DIR = BASE_DIR / "report" / "visualization"
+VISUALIZATION_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def heatmap(df):
@@ -17,4 +24,8 @@ def heatmap(df):
     plt.title("ILO Employment Heatmap (Countries Sorted by Avg Employment)")
     plt.xlabel("Country (Sorted by Avg Employment)")
     plt.ylabel("Year (Recent at Top)")
+
+    # Save figure
+    plt.savefig(VISUALIZATION_DIR / "ilo_employment_heatmap.png", dpi=300, bbox_inches='tight')
+    
     plt.show()

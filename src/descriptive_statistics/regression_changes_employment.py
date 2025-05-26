@@ -6,6 +6,14 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
 from src.features.generate_features import GenerateFeatures
+from pathlib import Path
+
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+VISUALIZATION_DIR = BASE_DIR / "report" / "visualization"
+VISUALIZATION_DIR.mkdir(parents=True, exist_ok=True)
+
 
 def regression_changes_employment(df):
     df['Total_Trade'] = df['Export'] + df['Import']
@@ -23,3 +31,8 @@ def regression_changes_employment(df):
     sns.lmplot(x='Total_Trade_chpct1Y', y='ILO_chpct1Y', data=df_clean, height=6, aspect=1.5)
     plt.title("Regression Analysis of Employment and Trade Volume Changes")
     # Interpretation: When a country's total trade volume increases, its employment tends to increase, on average.
+
+    # Save figure
+    plt.savefig(VISUALIZATION_DIR / "regression_changes_employment.png", dpi=300, bbox_inches='tight')
+    
+    plt.show()

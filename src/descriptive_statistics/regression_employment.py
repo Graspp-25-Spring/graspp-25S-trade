@@ -1,7 +1,13 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import statsmodels.formula.api as smf
+from pathlib import Path
 
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+VISUALIZATION_DIR = BASE_DIR / "report" / "visualization"
+VISUALIZATION_DIR.mkdir(parents=True, exist_ok=True)
 
 def regression_employment(df):
     df_regression = df.dropna(subset=["Export", "ILO"]).reset_index()
@@ -19,4 +25,8 @@ def regression_employment(df):
     plt.xlabel('Employment')
     plt.ylabel('Export (USD)')
     plt.grid(True)
+
+    # Save figure
+    plt.savefig(VISUALIZATION_DIR / "regression_employment.png", dpi=300, bbox_inches='tight')
+    
     plt.show()
