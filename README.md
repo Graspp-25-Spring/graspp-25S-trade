@@ -1,23 +1,20 @@
 ### Binder for the first milestone
-
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Gericko/graspp-25S-trade/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fmilestone_1.ipynb)
 
 
 ### Collaborators
-- Quentin Hillebrand
-- Gerwin He
+- Gerwin He 
 - Hanako Nakamura
 - Wanonno Iqtyider
-- Tue Lan Le
-- Yijing Lian
-- Angie Henon
 - Natsuki Konishi
+(Quentin Hillebrand, Tue Lan Le, Yijing Lian, Angie Henon) 
 
 ### Research Question
-Does an increase in trade openness, measured by total trade volume and tariff levels, lead to a decline in secondary sector (manufacturing and construction) employment? 
+- Does an increase in trade openness, measured by total trade volume, lead to a decline in secondary sector employment (manufacturing and construction)?
+- How does this relationship vary with a country’s level of economic development?
 
 ### Thesis Statement
-This study investigates whether greater trade openness, reflected by rising total trade volumes and falling tariff rates, contributes to a decline in industrial employment. By conducting separate regression analyses for OECD and developing countries, the research aims to identify differences in how trade dynamics influence industrial sectors across different economic contexts. Using cross-country panel data and variations in tariff levels over time, the study focuses on a few case studies:
+This study investigates whether greater trade openness, reflected by rising total trade volumes, contributes to a decline in industrial employment. By conducting separate regression analyses for OECD and developing countries, the research aims to identify differences in how trade dynamics influence industrial sectors across different economic contexts. Using cross-country panel data and variations in tariff levels over time, the study focuses on a few case studies:
 1. comparison between developed and developing countries
 2. change in shock periods like US-China trade war
 
