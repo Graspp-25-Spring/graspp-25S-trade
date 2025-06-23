@@ -4,17 +4,15 @@
 
 
 ### Collaborators
-- Quentin Hillebrand
 - Gerwin He
-- Hanako Nakamura
+- Hanako Nakamura 
 - Wanonno Iqtyider
-- Tue Lan Le
-- Yijing Lian
-- Angie Henon
 - Natsuki Konishi
+(Quentin Hillebrand, Tue Lan Le, Yijing Lian, Angie Henon)
 
-### Research Question
-Does an increase in trade openness, measured by total trade volume and tariff levels, lead to a decline in secondary sector (manufacturing and construction) employment? 
+### Research Questions
+- Does an increase in trade openness, measured by total trade volume, lead to a decline in secondary sector employment (manufacturing and construction)?
+- How does this relationship vary with a country’s level of economic development?
 
 ### Thesis Statement
 This study investigates whether greater trade openness, reflected by rising total trade volumes and falling tariff rates, contributes to a decline in industrial employment. By conducting separate regression analyses for OECD and developing countries, the research aims to identify differences in how trade dynamics influence industrial sectors across different economic contexts. Using cross-country panel data and variations in tariff levels over time, the study focuses on a few case studies:
@@ -31,7 +29,7 @@ We visualized trends over time and examined the relationship between employment 
 - ILO Data: https://rshiny.ilo.org/dataexplorer16/?id=EMP_TEMP_ECO_OCU_NB_A&timefrom=2014&timeto=2024
 - OECD Data on annual labor force: https://data-explorer.oecd.org/vis?fs[0]=T%2Co&pg=0&fc=Topic&bp=true&snb=68&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_ALFS%2540DF_SUMTAB&df[ag]=OECD.SDD.TPS&df[vs]=1.0&dq=........A&pd=%2C&to[TIME_PERIOD]=false&vw=ov
 
-### Task Table
+### Task Allocation Table
 | Name               | Work Under Progress              | Work Done           |
 |:------------------|:------------------|:---------------|
 | Quentin Hillebrand |                                  |                     |
