@@ -7,6 +7,7 @@
 - Hanako Nakamura
 - Wanonno Iqtyider
 - Natsuki Konishi
+
 (Quentin Hillebrand, Tue Lan Le, Yijing Lian, Angie Henon) 
 
 ### Research Question
