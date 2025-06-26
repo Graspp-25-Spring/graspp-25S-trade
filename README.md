@@ -29,12 +29,19 @@ We visualized trends over time and examined the relationship between employment 
 - OECD Data on annual labor force: https://data-explorer.oecd.org/vis?fs[0]=T%2Co&pg=0&fc=Topic&bp=true&snb=68&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_ALFS%2540DF_SUMTAB&df[ag]=OECD.SDD.TPS&df[vs]=1.0&dq=........A&pd=%2C&to[TIME_PERIOD]=false&vw=ov
 
 ### Task Table
-| Name               | Completed Task |
 [Main Members]       
-| Gerwin He          |                                   
-| Hanako Nakamura    | Timeseries Analysis + Case Study US-Japan-Germany-India-Vietnam|
-| Wanonno Iqtyider   | Regeression Analysis                                 |                     |
-| Natsuki Konishi    |                                  |                     |
+
+[Gerwin He]  
+Establishing the research question, giving an overview of the literature to explain how we got interested in our research question, deriving our hypotheses from the research question.                                 
+
+[Hanako Nakamura]
+Designed and produced additional visualizations to support our analysis, including time series plots and histograms. These plots were used to explore trends over time and the distribution of key variables, enriching the empirical grounding of our findings.
+
+[Wanonno Iqtyider]
+Estimated the main regression models to test our hypotheses, using statistical methods suited to our data structure. Additionally contributed optional case study insights and prepared a robustness check using supplementary text analysis, adding qualitative depth to our otherwise quantitative approach.
+
+[Natsuki Konishi] 
+Conducted the descriptive statistical analysis by summarizing key characteristics of the dataset, including the number of countries and years observed, as well as the minimum, maximum, and mean values of core variables. Created scatter plots to visualize key relationships of interest, helping to identify potential correlations and patterns relevant to our hypotheses
 
 [Sub Members]  
 | Tue Lan Le         |                             
