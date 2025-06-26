@@ -29,13 +29,15 @@ We visualized trends over time and examined the relationship between employment 
 - OECD Data on annual labor force: https://data-explorer.oecd.org/vis?fs[0]=T%2Co&pg=0&fc=Topic&bp=true&snb=68&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_ALFS%2540DF_SUMTAB&df[ag]=OECD.SDD.TPS&df[vs]=1.0&dq=........A&pd=%2C&to[TIME_PERIOD]=false&vw=ov
 
 ### Task Table
-| Name               | Work Under Progress              | Work Done           |
-|:------------------|:------------------|:---------------|
-| Quentin Hillebrand |                                  |                     |
-| Gerwin He          |                                  |                     |
-| Hanako Nakamura    |Update time series analysis using new data|                     |
-| Wanonno Iqtyider   |                                  |                     |
-| Tue Lan Le         |                                  |                     |
-| Yijing Lian        | Case study on US-China trade war | 1. Mapping employment by country and year,<br>2. Regression and Histogram on pct. change of employment and trade|
-| Angie Henon        |                                  |                     |
+| Name               | Completed Task |
+[Main Members]       
+| Gerwin He          |                                   
+| Hanako Nakamura    | Timeseries Analysis + Case Study US-Japan-Germany-India-Vietnam|
+| Wanonno Iqtyider   | Regeression Analysis                                 |                     |
 | Natsuki Konishi    |                                  |                     |
+
+[Sub Members]  
+| Tue Lan Le         |                             
+| Yijing Lian        |                      
+| Angie Henon        |                                  
+| Quentin Hillebrand |                                 
