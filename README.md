@@ -53,7 +53,7 @@ Regarding trade openness, we used a dataset from the UN Comtrade Database to ref
 Establishing the research question, giving an overview of the literature to explain how we got interested in our research question, deriving our hypotheses from the research question.                                 
 
 [Hanako Nakamura]
-Designed and produced additional visualizations to support our analysis, including time series plots and histograms. These plots were used to explore trends over time and the distribution of key variables, enriching the empirical grounding of our findings.
+Designed and produced additional visualizations to support our analysis, such as the time series analysis plots. These plots were used to explore trends over time and the distribution of key variables, enriching the empirical grounding of our findings.
 
 [Wanonno Iqtyider]
 Estimated the main regression models to test our hypotheses, using statistical methods suited to our data structure. Additionally contributed optional case study insights and prepared a robustness check using supplementary text analysis, adding qualitative depth to our otherwise quantitative approach.
