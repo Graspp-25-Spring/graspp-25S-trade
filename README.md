@@ -58,7 +58,7 @@ Establishing the research question, giving an overview of the literature to expl
 Designed and produced additional visualizations to support our analysis, such as the time series analysis plots. These plots were used to explore trends over time and the distribution of key variables, enriching the empirical grounding of our findings.
 
 [Wanonno Iqtyider]
-Estimated the main regression models to test our hypotheses, using statistical methods suited to our data structure. Additionally contributed optional case study insights and prepared a robustness check using supplementary text analysis, adding qualitative depth to our otherwise quantitative approach.
+Estimated the main regression models to test our hypotheses, using statistical methods suited to our data structure. Additionally contributed to the optional case study.
 
 [Natsuki Konishi] 
 Conducted the descriptive statistical analysis by summarizing key characteristics of the dataset, including the number of countries and years observed, as well as the minimum, maximum, and mean values of core variables. Created scatter plots to visualize key relationships of interest, helping to identify potential correlations and patterns relevant to our hypotheses
